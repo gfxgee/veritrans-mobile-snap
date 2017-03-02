@@ -10,10 +10,10 @@ import (
 )
 
 // MongoDBUrl url of mongo db
-var MongoDBUrl = "mongodb://bizler:bizler@ds058369.mlab.com:58369/bizler-midtrans"
+var MongoDBUrl string = "mongodb://bizler:bizler@ds058369.mlab.com:58369/bizler-midtrans"
 
 // MongoDB database connection
-var MongoDB = "bizler-midtrans"
+var MongoDB *mgo.Database = "bizler-midtrans"
 
 // SnapURL is snap endpoint
 var SnapURL = "https://app.sandbox.midtrans.com/snap/v1"
