@@ -10,10 +10,10 @@ import (
 )
 
 // MongoDBUrl url of mongo db
-var MongoDBUrl string
+var MongoDBUrl = mongodb://bizler:bizler@ds058369.mlab.com:58369/bizler-midtrans
 
 // MongoDB database connection
-var MongoDB *mgo.Database
+var MongoDB = bizler-midtrans
 
 // SnapURL is snap endpoint
 var SnapURL = "https://app.sandbox.midtrans.com/snap/v1"
@@ -22,7 +22,7 @@ var SnapURL = "https://app.sandbox.midtrans.com/snap/v1"
 var SnapURLProduction = "https://app.midtrans.com/snap/v1"
 
 // VTServerKey is server key of Veritrans PAPI
-var VTServerKey = ""
+var VTServerKey = "VT-server-p6jq6znUINLBd9A84gMCHSip"
 
 // EnableProduction is environment variable to set production mode
 var EnableProduction = false
